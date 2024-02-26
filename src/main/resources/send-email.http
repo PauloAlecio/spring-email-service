@@ -1,0 +1,21 @@
+POST http://localhost:8080/api/v1/public/email HTTP/1.1
+content-type: application/json
+
+{
+    "to":"suzan@email.com",
+    "subject":"demo spring mail",
+    "body":"it's alive Suzan"
+}
+
+###
+POST http://localhost:8080/api/v1/public/registration/users   HTTP/1.1
+content-type: application/json
+
+{
+    "to":"suzan@email.com",
+    "subject":"demo spring mail",
+    "body":"it's alive Suzan"
+}
+
+###
+GET http://localhost:8080/api/v1/public/registrationConfirm/users?token=7e81deb9-632d-4ec6-aced-fa71f6b1a554  HTTP/1.1
