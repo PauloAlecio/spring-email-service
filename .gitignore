@@ -6,7 +6,7 @@ target/
 .mvn
 mvnw
 mvnw.cmd
-.txt
+config/
 
 
 ### JAVA VERSION ###
