@@ -9,7 +9,7 @@ Configurando um serviço que envia emails com Spring Boot.
 - [Spring MVC](https://docs.spring.io/spring-framework/reference/web/webmvc.html)
 - [Spring Email](https://docs.spring.io/spring-framework/reference/integration/email.html)
 
-## Como Executar
+## Execute
 
 - Clonar repositório git:
   ```
